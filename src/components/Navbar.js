@@ -25,7 +25,7 @@ const Navbar=()=>{
                     </li>
                     
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Student</a>
+                        <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Student</Link>
                         <ul className="dropdown-menu">
                             <li><Link className="dropdown-item" to="/student/Register"  > Register</Link></li>
                             <li><Link className="dropdown-item" to="/student/delete"> Delete </Link></li>
