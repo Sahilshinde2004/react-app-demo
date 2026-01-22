@@ -1,7 +1,7 @@
 import{Link} from "react-router-dom"
 const Navbar=()=>{
     return(
-        <>
+    
         <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@ const Navbar=()=>{
                     </li>
                     
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Student  </a>
+                        <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Student</a>
                         <ul className="dropdown-menu">
                             <li><Link className="dropdown-item" to="/student/Register"  > Register</Link></li>
                             <li><Link className="dropdown-item" to="/student/delete"> Delete </Link></li>
@@ -38,10 +38,6 @@ const Navbar=()=>{
                 </ul>
             </div>
         </nav>
-        
-
-      
-        </>
     )
 }
 export default Navbar;
