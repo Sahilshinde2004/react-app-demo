@@ -1,0 +1,18 @@
+{
+    "students": [
+        {
+            "id": "100",
+            "name": "Sahil",
+            "email": "sahil@gmail.com",
+            "age": "43",
+            "course": "Java"
+        },
+        {
+            "id": "101",
+            "name": "Kunal",
+            "email": "kunal@gmail.com",
+            "age": "34",
+            "course": "Dotnet"
+        }
+    ]
+}
